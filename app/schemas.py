@@ -1,3 +1,4 @@
+from enum import Enum
 from pydantic import BaseModel, Field, model_validator
 from typing import Any, Dict, List, Optional, Union
 
@@ -11,6 +12,10 @@ Part = TextPart
 class Message(BaseModel):
     role: str
     parts: List[Part]
+    extensions: Optional[List[str]] = None
+    referenceTaskIds: Optional[List[str]] = None
+    taskId: Optional[str] = None
+    contextId: Optional[str] = None
     kind: str = "message"
     messageId: Optional[str] = None
     metadata: Optional[Dict[str, Any]] = None
