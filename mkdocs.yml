@@ -2,8 +2,8 @@ site_name: Etymo Agent
 site_description: AI-powered etymology agent built on the Telex A2A protocol
 site_author: rifushigi labs
 site_url: https://your-domain.com
-repo_url: https://github.com/your-username/etymo-agent
-repo_name: etymo-agent
+repo_url: https://github.com/Rifushigi/etymo
+repo_name: etymo
 edit_uri: edit/main/docs/
 
 # Build settings
@@ -15,14 +15,10 @@ nav:
   - Home: index.md
   - Getting Started:
     - Quickstart: quickstart.md
-    - Installation: installation.md
   - Usage:
     - API Reference: api.md
-    - Examples: examples.md
   - Configuration:
     - Agent Card: agent-card.md
-    - Environment Variables: configuration.md
-  - Deployment: deployment.md
   - FAQ: faq.md
 
 # Theme
