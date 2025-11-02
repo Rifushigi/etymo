@@ -14,6 +14,10 @@ router = APIRouter()
 
 @router.post("/")
 async def rpc_entry(request: Request):
+    """
+    Generic JSON-RPC 2.0 endpoint for A2A.
+    Expects JSONRPCRequest; returns JSONRPCResponse.
+    """
     try:
         payload = await request.json()
     except Exception as exc:
