@@ -15,7 +15,7 @@ def make_rpc_result_message(text: str) -> Dict[str, Any]:
         ]
     }
 
-def extract_first_from_message_parts(message: Dict[str, Any]) -> Optional[str]:
+def extract_first_text_from_message_parts(message: Dict[str, Any]) -> Optional[str]:
     parts = message.get("parts") or []
     for p in parts:
         if p.get("kind") == "text" and p.get("text"):
