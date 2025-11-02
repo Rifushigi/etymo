@@ -154,7 +154,6 @@ You should see the agent's capabilities, skills, and examples.
 ## Next Steps
 
 - **Explore the API**: Read the [API Reference](api.md)
-- **See more examples**: Check out [Examples](examples.md)
 
 ## Troubleshooting
 
