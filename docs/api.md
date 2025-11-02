@@ -354,5 +354,4 @@ Available log levels:
 
 ## Next Steps
 
-- See [Examples](examples.md) for more use cases
 - Read [Agent Card](agent-card.md) for metadata format
