@@ -88,8 +88,6 @@ graph LR
 
     [:octicons-arrow-right-24: API Reference](api.md)
 
-</div>
-
 ## Requirements
 
 - Python 3.10+
